@@ -13,36 +13,26 @@ main {
   margin: 140px 230px;
 }
 /* banner section starts */
-.banner-container {
-  width: 100%;
+.banner-upper-container {
+  padding: 254px 230px 254px 1214px;
   background-image: url("../images/banner/banner1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top left;
 }
 
-.banner {
-  width: 30%;
-  text-align: right;
-}
 .banner-title {
   margin: 0;
-  padding: 215px 230px 0 845px;
   width: 525px;
   color: #151414;
   font-size: 65px;
   font-weight: 700;
 }
 .banner-description {
-  padding: 0 230px 0 865px;
   width: 494px;
   color: #444343;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
-}
-.button-container {
-  padding: 0 230px 190px 1200px;
 }
 .banner-btn {
   width: 160px;
