@@ -9,6 +9,9 @@ body {
   margin: 0;
 }
 
+main {
+  margin: 140px 230px;
+}
 /* banner section starts */
 .banner-container {
   width: 100%;
@@ -38,7 +41,7 @@ body {
   line-height: 26px; /* 162.5% */
 }
 .button-container {
-  padding: 0 230px 500px 1200px;
+  padding: 0 230px 190px 1200px;
 }
 .banner-btn {
   width: 160px;
@@ -49,4 +52,45 @@ body {
   font-size: 20px;
   font-weight: 600;
   padding: 20px 25px;
+}
+
+/* failure section */
+
+.failures-container {
+  display: flex;
+  align-items: center;
+  gap: 105px;
+}
+
+.failure-image-container {
+  width: 500px;
+}
+
+.failures-detail {
+  width: 420px;
+}
+.failure-title {
+  width: 288px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failure-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+  line-height: 26px; /* 162.5% */
+}
+
+.failure-list {
+  margin-top: 40px;
+  line-height: 26px; /* 162.5% */
+}
+
+.failure-list-item {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  list-style-type: none;
 }
