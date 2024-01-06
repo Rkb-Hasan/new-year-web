@@ -94,3 +94,34 @@ main {
   font-weight: 400;
   list-style-type: none;
 }
+
+/* plan section starts */
+.plan {
+  margin-top: 80px;
+}
+.plan-title {
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.plan-details-container {
+  display: flex;
+  justify-content: space-around;
+}
+.plan-detil {
+  text-align: center;
+}
+.plan-detail-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.plan-description {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
